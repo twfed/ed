@@ -1,0 +1,19 @@
+{
+  "name": "ed",
+  "version": "0.1.0",
+  "description": "Department of Education",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twfed/ed.git"
+  },
+  "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/twfed/ed/issues"
+  },
+  "homepage": "https://github.com/twfed/ed#readme"
+}
