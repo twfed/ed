@@ -1,6 +1,6 @@
 {
   "name": "ed",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Department of Education",
   "main": "index.html",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/twfed/ed/issues"
   },
-  "homepage": "https://github.com/twfed/ed#readme"
+  "homepage": "https://github.com/twfed/ed#readme",
+  "dependencies": {
+    "uswds": "^2.12.1"
+  }
 }
