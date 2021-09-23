@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/twfed/ed/issues"
   },
-  "homepage": "https://github.com/twfed/ed#readme"
+  "homepage": "https://github.com/twfed/ed#readme",
+  "dependencies": {
+    "uswds": "^2.12.1"
+  }
 }
