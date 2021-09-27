@@ -28,7 +28,6 @@ jobs:
           IGNORE_GENERATED_FILES: true
           IGNORE_GITIGNORED_FILES: true
           FILTER_REGEX_EXCLUDE: .*assets/.*
-          VALIDATE_CSS: false
           VALIDATE_JSCPD: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
