@@ -1,6 +1,6 @@
 {
   "tagname-lowercase": true,
-  "attr-lowercase": [ "Test" ],
+  "attr-lowercase": [ "viewBox" ],
   "attr-value-double-quotes": true,
   "attr-value-not-empty": false,
   "attr-no-duplication": true,
