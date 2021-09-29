@@ -25,7 +25,7 @@ window.customElements.define('usa-header',
   <div class="usa-navbar">
     <div class="usa-logo" id="extended-logo">
       <em class="usa-logo__text">
-        <a href="javascript:void(0)" title="U.S. Department of Education">
+        <a href="https://twfed.github.io/ed/" title="U.S. Department of Education">
           U.S. Department of Education
         </a>
       </em>
