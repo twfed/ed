@@ -11,10 +11,12 @@
     <!-- US Web Design System -->
     <link rel="stylesheet" href="assets/uswds-2.12.1/css/uswds.css">
     <script src="assets/uswds-2.12.1/js/uswds-init.min.js"></script>
-    <link rel="preload" href="assets/uswds-2.12.1/js/uswds.min.js" as="script">
+    <!-- <link rel="preload" href="assets/uswds-2.12.1/js/uswds.min.js" as="script"> -->
+    <script src="assets/uswds-2.12.1/js/uswds.min.js" defer="true"></script>
 
     <!-- USA Custom Elements -->
     <script src="components/usa-banner/index.js"></script>
+    <script src="components/usa-header/index.js"></script>
 
   </head>
 
@@ -24,113 +26,20 @@
   <usa-banner></usa-banner>
 
   <div class="usa-overlay"></div>
-<header class="usa-header usa-header--extended">
-  <div class="usa-navbar">
-    <div class="usa-logo" id="extended-logo">
-      <em class="usa-logo__text">
-        <a href="javascript:void(0)" title="&lt;Project title&gt;">
-          &lt;Project title&gt;
-        </a>
-      </em>
-    </div>
-    <button class="usa-menu-btn">Menu</button>
-  </div>
-  <nav aria-label="Primary navigation" class="usa-nav">
-    <div class="usa-nav__inner">
-      <button class="usa-nav__close">
-        <img src="assets/uswds-2.12.1/img/usa-icons/close.svg" role="img" alt="Close" />
-      </button>
-      <ul class="usa-nav__primary usa-accordion">
-        <li class="usa-nav__primary-item">
-          <button
-            class="usa-accordion__button usa-nav__link usa-current"
-            aria-expanded="false"
-            aria-controls="extended-nav-section-one"
-          >
-            <span>&lt;Current section&gt;</span>
-          </button>
 
-          <ul id="extended-nav-section-one" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href="#"> &lt;Navigation link&gt; </a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="#"> &lt;Navigation link&gt; </a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="#"> &lt;Navigation link&gt; </a>
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item">
-          <button
-            class="usa-accordion__button usa-nav__link"
-            aria-expanded="false"
-            aria-controls="extended-nav-section-two"
-          >
-            <span>&lt;Section&gt;</span>
-          </button>
-
-          <ul id="extended-nav-section-two" class="usa-nav__submenu">
-            <li class="usa-nav__submenu-item">
-              <a href="#"> &lt;Navigation link&gt; </a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="#"> &lt;Navigation link&gt; </a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href="#"> &lt;Navigation link&gt; </a>
-            </li>
-          </ul>
-        </li>
-        <li class="usa-nav__primary-item">
-          <a href="javascript:void(0)" class="usa-nav__link">
-            <span>&lt;Simple link&gt;</span>
-          </a>
-        </li>
-      </ul>
-      <div class="usa-nav__secondary">
-        <ul class="usa-nav__secondary-links">
-          <li class="usa-nav__secondary-item">
-            <a href="">&lt;Secondary link&gt;</a>
-          </li>
-          <li class="usa-nav__secondary-item">
-            <a href="">&lt;Another secondary link&gt;</a>
-          </li>
-        </ul>
-
-        <form class="usa-search usa-search--small" role="search">
-          <label class="usa-sr-only" for="extended-search-field-en-small">
-            Search
-          </label>
-          <input
-            class="usa-input"
-            id="extended-search-field-en-small"
-            type="search"
-            name="search"
-          />
-          <button class="usa-button" type="submit">
-            <span class="usa-sr-only">Search</span>
-          </button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
+  <usa-header></usa-header> 
 
   <main id="main-content">
-  <section class="usa-hero" aria-label="Introduction">
+  <section class="usa-hero" aria-label="Student Loans">
     <div class="grid-container">
       <div class="usa-hero__callout">
         <h1 class="usa-hero__heading">
-          <span class="usa-hero__heading--alt">Hero callout:</span>Bring
-          attention to a project priority
+          <span class="usa-hero__heading--alt">Student Loans</span>
         </h1>
         <p>
-          Support the callout with some short explanatory text. You don’t need
-          more than a couple of sentences.
+          Get all the information you need to apply for or manage repayment of your federal student loans.
         </p>
-        <a class="usa-button" href="javascript:void(0)">Call to action</a>
+        <a class="usa-button" href="https://www2.ed.gov/fund/grants-college.html?src=go">Learn More</a>
       </div>
     </div>
   </section>
@@ -139,21 +48,15 @@
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4">
         <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">
-          A tagline highlights your approach
+          Public Service Loan Forgiveness (PSLF)
         </h2>
       </div>
       <div class="tablet:grid-col-8 usa-prose">
         <p>
-          The tagline should inspire confidence and interest, focusing on the
-          value that your overall approach offers to your audience. Use a
-          heading typeface and keep your tagline to just a few words, and don’t
-          confuse or mystify.
+          If you are employed by a U.S. federal, state, local, or tribal government or not-for-profit organization, you might be eligible for the Public Service Loan Forgiveness Program. <a href="https://www2.ed.gov/fund/grants-college.html?src=go">Learn more</a> to see whether you might qualify.
         </p>
         <p>
-          Use the right side of the grid to explain the tagline a bit more. What
-          are your goals? How do you do your work? Write in the present tense,
-          and stay brief here. People who are interested can find details on
-          internal pages.
+          The PSLF Program forgives the remaining balance on your Direct Loans after you have made 120 qualifying monthly payments under a qualifying repayment plan while working full-time for a qualifying employer.
         </p>
       </div>
     </div>
